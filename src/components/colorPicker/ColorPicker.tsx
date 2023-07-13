@@ -34,6 +34,7 @@ export default function ColorPicker({
 
   const buttons = colors.map((c: string) => (
     <TouchableOpacity
+      key={`button_${c}`}
       style={[styles.button, { backgroundColor: c, borderColor: c === color ? '#666' : 'transparent' }]}
       onPress={() => setColor(c)}
     >

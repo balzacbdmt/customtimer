@@ -24,7 +24,7 @@ export default function Menu({
   return (
     <View style={styles.container}>
       {timers?.map((t: Timer) => (
-        <Card setTimer={() => setTimer(t)} title={t.title + t.id} />
+        <Card key={`card_${t}`} setTimer={() => setTimer(t)} title={t.title + t.id} />
       ))}
       <Card setTimer={() => setDisplayEditor(true)} title='New timer' />
     </View>
