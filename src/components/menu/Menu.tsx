@@ -1,6 +1,6 @@
 import { StyleSheet, View } from 'react-native';
 import Constants from 'expo-constants';
-import { colors, getData, getProgramById, storeData } from '../../constants/global';
+import { colors, getData } from '../../constants/global';
 import Card from './Card';
 import { useEffect, useState } from 'react';
 
