@@ -1,0 +1,17 @@
+[{
+  "title": "up",
+  "time": 2,
+  "color": "red"
+}, {
+  "title": "break",
+  "time": 3,
+  "color": "blue"
+}, {
+  "title": "down",
+  "time": 2,
+  "color": "green"
+}, {
+  "title": "break 2",
+  "time": 4,
+  "color": "orange"
+}]
